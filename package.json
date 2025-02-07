@@ -19,7 +19,7 @@
     "format:prettier": "prettier . --write",
     "prepare": "run-s prepare:husky",
     "prepare:husky": "husky",
-    "test": "echo todo",
+    "test": "echo test",
     "todo": "leasot src/**/*.{js,ts,cjs,mjs}"
   },
   "devDependencies": {
@@ -39,6 +39,7 @@
     "prettier-plugin-pkg": "^0.18.1",
     "prettier-plugin-sh": "^0.14.0",
     "prettylint": "^2.0.0",
+    "tap": "^21.0.1",
     "ts-node": "^10.9.2",
     "ts-pattern": "^5.6.2",
     "typescript": "^5.7.3",
