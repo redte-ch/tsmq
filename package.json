@@ -19,7 +19,7 @@
     "format:prettier": "prettier . --write",
     "prepare": "run-s prepare:husky",
     "prepare:husky": "husky",
-    "test": "echo test",
+    "test": "tap test/**/*.ts",
     "todo": "leasot src/**/*.{js,ts,cjs,mjs}"
   },
   "devDependencies": {
