@@ -1,0 +1,47 @@
+{
+  "name": "@redtech/tsmq",
+  "version": "0.1.0",
+  "type": "module",
+  "license": "AGPL-3.0-or-later",
+  "private": true,
+  "packageManager": "yarn@4.6.0",
+  "engines": {
+    "node": ">= 20.0.0",
+    "npm": ">= 10.0.0"
+  },
+  "scripts": {
+    "build": "echo todo",
+    "check": "run-p check:eslint check:prettier",
+    "check:eslint": "eslint .",
+    "check:prettier": "prettylint .",
+    "format": "run-s format:eslint format:prettier",
+    "format:eslint": "yarn check:eslint --fix",
+    "format:prettier": "prettier . --write",
+    "prepare": "run-s prepare:husky",
+    "prepare:husky": "husky",
+    "test": "echo todo",
+    "todo": "leasot src/**/*.{js,ts,cjs,mjs}"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.7.1",
+    "@commitlint/config-conventional": "^19.7.1",
+    "@ianvs/prettier-plugin-sort-imports": "^4.4.1",
+    "@types/node": "^22.13.1",
+    "eslint": "^9.19.0",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-functional": "^8.0.0",
+    "husky": "^9.1.7",
+    "leasot": "^14.4.0",
+    "neostandard": "^0.12.1",
+    "npm-run-all2": "^7.0.2",
+    "prettier": "^3.4.2",
+    "prettier-plugin-jsdoc": "^1.3.2",
+    "prettier-plugin-pkg": "^0.18.1",
+    "prettier-plugin-sh": "^0.14.0",
+    "prettylint": "^2.0.0",
+    "ts-node": "^10.9.2",
+    "ts-pattern": "^5.6.2",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.23.0"
+  }
+}

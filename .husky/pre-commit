@@ -1,0 +1,3 @@
+yarn run check:eslint
+yarn run check:prettier
+yarn run test
